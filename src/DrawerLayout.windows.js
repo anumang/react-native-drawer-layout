@@ -409,11 +409,4 @@ var styles = _reactNative.StyleSheet.create({
     flex: 1,
     zIndex: 0 },
 
-  overlay: {
-    backgroundColor: '#000',
-    position: 'absolute',
-    top: 0,
-    left: 0,
-    bottom: 0,
-    right: 0,
-    zIndex: 1000 } });
+  overlay: { } });
