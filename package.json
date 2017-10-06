@@ -6,7 +6,7 @@
   "scripts": {
     "babel": "babel src --out-dir dist",
     "build": "npm run-script clear && npm run-script babel",
-    "clear": "rm -rf dist/ && mkdir dist/",
+    "clear": "rm -rf dist && mkdir dist",
     "lint:staged": "lint-staged",
     "prepublish": "npm run build",
     "test": "flow --show-all-errors",
